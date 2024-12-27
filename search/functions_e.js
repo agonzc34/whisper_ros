@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['whisper_0',['Whisper',['../classwhisper__ros_1_1Whisper.html#a00a2d4dcbf859a2f89acbe26fee7f495',1,'whisper_ros::Whisper']]],
-  ['whisperbasenode_1',['WhisperBaseNode',['../classwhisper__ros_1_1WhisperBaseNode.html#a33d49ceeb808a31d9f09f4c945e99112',1,'whisper_ros::WhisperBaseNode']]],
-  ['whispernode_2',['WhisperNode',['../classwhisper__ros_1_1WhisperNode.html#a1de03f76982e359b391a5fc2dfb34d8a',1,'whisper_ros::WhisperNode']]],
-  ['whisperservernode_3',['WhisperServerNode',['../classwhisper__ros_1_1WhisperServerNode.html#af01af34e7370c7a302b8089949fe13a7',1,'whisper_ros::WhisperServerNode']]]
+  ['timestamp_0',['Timestamp',['../classsilero__vad_1_1Timestamp.html#aef6b9837ceac0b219ad398fd8880cdac',1,'silero_vad::Timestamp']]],
+  ['timestamp_5fto_5fstr_1',['timestamp_to_str',['../classwhisper__ros_1_1Whisper.html#ad167907434f5f97643d5f11bc04dd0b7',1,'whisper_ros::Whisper']]],
+  ['to_5fstring_2',['to_string',['../classsilero__vad_1_1Timestamp.html#abb7f9f620841ab697ec0eada4477cbfa',1,'silero_vad::Timestamp']]],
+  ['transcribe_3',['transcribe',['../classwhisper__ros_1_1Whisper.html#a9b72e0fa397e61bc1ef750bb67d0ac15',1,'whisper_ros::Whisper::transcribe()'],['../classwhisper__ros_1_1WhisperBaseNode.html#a7f1857449c106a390937096347c87e37',1,'whisper_ros::WhisperBaseNode::transcribe()']]],
+  ['trim_4',['trim',['../classwhisper__ros_1_1Whisper.html#a6ad859d4d78d8148726468571bc041f2',1,'whisper_ros::Whisper']]]
 ];

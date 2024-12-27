@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['of_20contents_0',['Table of Contents',['../index.html#autotoc_md1',1,'']]],
-  ['on_5factivate_1',['on_activate',['../classwhisper__ros_1_1WhisperBaseNode.html#a2a1d953b4a91c1b45b00d61afca41c1f',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fcleanup_2',['on_cleanup',['../classwhisper__ros_1_1WhisperBaseNode.html#a4b4de878866261c77f7506ade3d40ad5',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fconfigure_3',['on_configure',['../classwhisper__ros_1_1WhisperBaseNode.html#a0b48ecc0e2c4d9fb469276bed4eff905',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fdeactivate_4',['on_deactivate',['../classwhisper__ros_1_1WhisperBaseNode.html#a483230480b61e030680f7660c939ff12',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fshutdown_5',['on_shutdown',['../classwhisper__ros_1_1WhisperBaseNode.html#aab0e3aea4690fafc281f4f3d70dc2fd2',1,'whisper_ros::WhisperBaseNode']]],
-  ['openvino_5fencode_5fdevice_6',['openvino_encode_device',['../classwhisper__ros_1_1WhisperBaseNode.html#af8b25cb3d202f05adcff363d7a45a2d6',1,'whisper_ros::WhisperBaseNode']]]
+  ['n_5fprocessors_0',['n_processors',['../classwhisper__ros_1_1Whisper.html#a2cf19689bc9eb774d5ca1500aeddf3bd',1,'whisper_ros::Whisper::n_processors'],['../classwhisper__ros_1_1WhisperBaseNode.html#a9f28cd8f6dc6da9fab0039b341b688aa',1,'whisper_ros::WhisperBaseNode::n_processors']]],
+  ['next_5fstart_1',['next_start',['../classsilero__vad_1_1VadIterator.html#ac56a926656e05eb9d7180f178c63f34e',1,'silero_vad::VadIterator']]]
 ];

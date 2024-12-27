@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['data_0',['data',['../classwhisper__ros_1_1silero__vad__node_1_1SileroVadNode.html#a66a38da65e1462ebd9efab384de6d1f0',1,'whisper_ros::silero_vad_node::SileroVadNode']]]
+  ['data_0',['data',['../classsilero__vad_1_1SileroVadNode.html#ab083278abbd0d14c12a41ab0aa35eb90',1,'silero_vad::SileroVadNode']]]
 ];

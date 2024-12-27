@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['silerovadnode_0',['SileroVadNode',['../classwhisper__ros_1_1silero__vad__node_1_1SileroVadNode.html',1,'whisper_ros::silero_vad_node']]]
+  ['silerovadnode_0',['SileroVadNode',['../classsilero__vad_1_1SileroVadNode.html',1,'silero_vad']]]
 ];

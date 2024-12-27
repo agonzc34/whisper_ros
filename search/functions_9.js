@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['on_5factivate_0',['on_activate',['../classwhisper__ros_1_1WhisperBaseNode.html#a2a1d953b4a91c1b45b00d61afca41c1f',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fcleanup_1',['on_cleanup',['../classwhisper__ros_1_1WhisperBaseNode.html#a4b4de878866261c77f7506ade3d40ad5',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fconfigure_2',['on_configure',['../classwhisper__ros_1_1WhisperBaseNode.html#a0b48ecc0e2c4d9fb469276bed4eff905',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fdeactivate_3',['on_deactivate',['../classwhisper__ros_1_1WhisperBaseNode.html#a483230480b61e030680f7660c939ff12',1,'whisper_ros::WhisperBaseNode']]],
-  ['on_5fshutdown_4',['on_shutdown',['../classwhisper__ros_1_1WhisperBaseNode.html#aab0e3aea4690fafc281f4f3d70dc2fd2',1,'whisper_ros::WhisperBaseNode']]]
+  ['main_0',['main',['../silero__vad__main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;silero_vad_main.cpp'],['../whisper__main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;whisper_main.cpp'],['../whisper__server__main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;whisper_server_main.cpp'],['../namespacewhisper__demos_1_1whisper__demo__node.html#abcd013734395f71f2d88920594a5bef1',1,'whisper_demos.whisper_demo_node.main()']]]
 ];

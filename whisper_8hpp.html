@@ -90,8 +90,7 @@ $(function(){ initResizable(false); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">whisper.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -146,92 +145,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtranscription__output.html">transcription_output</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTranscriptionOutput.html">TranscriptionOutput</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the result of a transcription operation.  <a href="structTranscriptionOutput.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwhisper__ros_1_1Whisper.html">whisper_ros::Whisper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for performing speech-to-text transcription using the <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> model.  <a href="classwhisper__ros_1_1Whisper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewhisper__ros.html">whisper_ros</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:adb5e97987323bf1f772fd96f64c0ca89" id="r_adb5e97987323bf1f772fd96f64c0ca89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb5e97987323bf1f772fd96f64c0ca89">WHISPER_LOG_ERROR</a>(text, ...)</td></tr>
-<tr class="separator:adb5e97987323bf1f772fd96f64c0ca89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9ef9048ddf6851c3ed34468c56782c" id="r_a1e9ef9048ddf6851c3ed34468c56782c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9ef9048ddf6851c3ed34468c56782c">WHISPER_LOG_WARN</a>(text, ...)</td></tr>
-<tr class="separator:a1e9ef9048ddf6851c3ed34468c56782c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32deec3bacfdaa9ac83d8505188c734e" id="r_a32deec3bacfdaa9ac83d8505188c734e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32deec3bacfdaa9ac83d8505188c734e">WHISPER_LOG_INFO</a>(text, ...)</td></tr>
-<tr class="separator:a32deec3bacfdaa9ac83d8505188c734e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="adb5e97987323bf1f772fd96f64c0ca89" name="adb5e97987323bf1f772fd96f64c0ca89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb5e97987323bf1f772fd96f64c0ca89">&#9670;&#160;</a></span>WHISPER_LOG_ERROR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WHISPER_LOG_ERROR</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  fprintf(stderr, <span class="stringliteral">&quot;[ERROR] &quot;</span> text <span class="stringliteral">&quot;\n&quot;</span>, ##__VA_ARGS__)</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a32deec3bacfdaa9ac83d8505188c734e" name="a32deec3bacfdaa9ac83d8505188c734e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32deec3bacfdaa9ac83d8505188c734e">&#9670;&#160;</a></span>WHISPER_LOG_INFO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WHISPER_LOG_INFO</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  fprintf(stderr, <span class="stringliteral">&quot;[INFO] &quot;</span> text <span class="stringliteral">&quot;\n&quot;</span>, ##__VA_ARGS__)</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1e9ef9048ddf6851c3ed34468c56782c" name="a1e9ef9048ddf6851c3ed34468c56782c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e9ef9048ddf6851c3ed34468c56782c">&#9670;&#160;</a></span>WHISPER_LOG_WARN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WHISPER_LOG_WARN</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  fprintf(stderr, <span class="stringliteral">&quot;[WARN] &quot;</span> text <span class="stringliteral">&quot;\n&quot;</span>, ##__VA_ARGS__)</div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

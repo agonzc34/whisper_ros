@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['set_5fgrammar_5fservice_5f_0',['set_grammar_service_',['../classwhisper__ros_1_1WhisperNode.html#a44f1961c9f5435a6a8964fd1e02f18ac',1,'whisper_ros::WhisperNode']]],
-  ['set_5finit_5fprompt_5fservice_5f_1',['set_init_prompt_service_',['../classwhisper__ros_1_1WhisperNode.html#a292f45861b8d00b943f812554d7552a7',1,'whisper_ros::WhisperNode']]],
-  ['subscription_5f_2',['subscription_',['../classwhisper__ros_1_1WhisperNode.html#a7cf11b2f0e6c03dd609db6b2c727745f',1,'whisper_ros::WhisperNode::subscription_'],['../classwhisper__ros_1_1WhisperServerNode.html#aefa0b1826ff7547c4d03216b7fc24edf',1,'whisper_ros::WhisperServerNode::subscription_']]]
+  ['prev_5fdata_0',['prev_data',['../classsilero__vad_1_1SileroVadNode.html#aba7e10105fbfc6f8b39fc0b5a5f2e00c',1,'silero_vad::SileroVadNode']]],
+  ['prev_5fend_1',['prev_end',['../classsilero__vad_1_1VadIterator.html#a1bb6dd1d66013346c51ef774a85034ae',1,'silero_vad::VadIterator']]],
+  ['prob_2',['prob',['../structTranscriptionOutput.html#a3d291585a14b22f56a922cd938ad829f',1,'TranscriptionOutput']]],
+  ['publish_3',['publish',['../classsilero__vad_1_1SileroVadNode.html#ad8ece62f68d7fc14e5c1ae371a76830d',1,'silero_vad::SileroVadNode']]],
+  ['publisher_5f_4',['publisher_',['../classsilero__vad_1_1SileroVadNode.html#a749c4e51d540d3b22663aa31f6001d8c',1,'silero_vad::SileroVadNode::publisher_'],['../classwhisper__ros_1_1WhisperNode.html#a2398bb5d73a50aee120690a08b915679',1,'whisper_ros::WhisperNode::publisher_']]]
 ];

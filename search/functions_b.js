@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['set_5fgrammar_0',['set_grammar',['../classwhisper__ros_1_1Whisper.html#a40150662135513a1046d092644e9e37d',1,'whisper_ros::Whisper']]],
-  ['set_5fgrammar_5fservice_5fcallback_1',['set_grammar_service_callback',['../classwhisper__ros_1_1WhisperNode.html#a1e31f0167b5e0aa0e731c2f5c01ffa46',1,'whisper_ros::WhisperNode']]],
-  ['set_5finit_5fprompt_2',['set_init_prompt',['../classwhisper__ros_1_1Whisper.html#afaa4a30f3e7f56f5c66f6ad7cdec89a9',1,'whisper_ros::Whisper']]],
-  ['set_5finit_5fprompt_5fservice_5fcallback_3',['set_init_prompt_service_callback',['../classwhisper__ros_1_1WhisperNode.html#ac8281d450bb84820b304f8f3e1fbe509',1,'whisper_ros::WhisperNode']]]
+  ['predict_0',['predict',['../classsilero__vad_1_1VadIterator.html#ac9d1d48b74256dd47725e9f55a4706b9',1,'silero_vad::VadIterator']]]
 ];

@@ -98,16 +98,19 @@ $(function(){ initResizable(false); });
 </div><!--header-->
 <div class="contents">
 
+<p>A ROS 2 Lifecycle Node for interfacing with the <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> speech-to-text system.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="whisper__base__node_8hpp_source.html">whisper_base_node.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for whisper_ros::WhisperBaseNode:</div>
 <div class="dyncontent">
 <div class="center"><img src="classwhisper__ros_1_1WhisperBaseNode__inherit__graph.png" border="0" usemap="#awhisper__ros_1_1WhisperBaseNode_inherit__map" alt="Inheritance graph"/></div>
 <map name="awhisper__ros_1_1WhisperBaseNode_inherit__map" id="awhisper__ros_1_1WhisperBaseNode_inherit__map">
-<area shape="rect" title=" " alt="" coords="100,79,305,105"/>
-<area shape="rect" href="classwhisper__ros_1_1WhisperNode.html" title=" " alt="" coords="5,153,181,178"/>
+<area shape="rect" title="A ROS 2 Lifecycle Node for interfacing with the Whisper speech&#45;to&#45;text system." alt="" coords="100,79,305,105"/>
+<area shape="rect" href="classwhisper__ros_1_1WhisperNode.html" title="A ROS 2 node that extends WhisperBaseNode to handle transcription&#45;related functionality." alt="" coords="5,153,181,178"/>
 <area shape="poly" title=" " alt="" coords="173,115,113,154,110,150,170,111"/>
-<area shape="rect" href="classwhisper__ros_1_1WhisperServerNode.html" title=" " alt="" coords="205,153,418,178"/>
+<area shape="rect" href="classwhisper__ros_1_1WhisperServerNode.html" title="A node providing speech&#45;to&#45;text (STT) functionality using Whisper and Silero VAD." alt="" coords="205,153,418,178"/>
 <area shape="poly" title=" " alt="" coords="235,111,294,150,292,154,232,115"/>
 <area shape="rect" title=" " alt="" coords="103,5,302,31"/>
 <area shape="poly" title=" " alt="" coords="205,46,205,79,200,79,200,46"/>
@@ -118,7 +121,7 @@ Collaboration diagram for whisper_ros::WhisperBaseNode:</div>
 <div class="dyncontent">
 <div class="center"><img src="classwhisper__ros_1_1WhisperBaseNode__coll__graph.png" border="0" usemap="#awhisper__ros_1_1WhisperBaseNode_coll__map" alt="Collaboration graph"/></div>
 <map name="awhisper__ros_1_1WhisperBaseNode_coll__map" id="awhisper__ros_1_1WhisperBaseNode_coll__map">
-<area shape="rect" title=" " alt="" coords="900,85,1106,111"/>
+<area shape="rect" title="A ROS 2 Lifecycle Node for interfacing with the Whisper speech&#45;to&#45;text system." alt="" coords="900,85,1106,111"/>
 <area shape="rect" title=" " alt="" coords="552,5,751,31"/>
 <area shape="poly" title=" " alt="" coords="767,17,822,23,877,34,935,57,982,82,979,87,933,62,876,39,821,28,766,22"/>
 <area shape="rect" title=" " alt="" coords="613,81,690,107"/>
@@ -127,7 +130,7 @@ Collaboration diagram for whisper_ros::WhisperBaseNode:</div>
 <area shape="poly" title=" " alt="" coords="491,92,612,92,612,97,491,97"/>
 <area shape="rect" title=" " alt="" coords="570,131,733,172"/>
 <area shape="poly" title=" " alt="" coords="748,135,876,116,919,109,920,114,877,121,748,140"/>
-<area shape="rect" href="classwhisper__ros_1_1Whisper.html" title=" " alt="" coords="342,139,486,164"/>
+<area shape="rect" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech&#45;to&#45;text transcription using the Whisper model." alt="" coords="342,139,486,164"/>
 <area shape="poly" title=" " alt="" coords="502,149,570,149,570,154,502,154"/>
 <area shape="rect" title=" " alt="" coords="5,131,205,172"/>
 <area shape="poly" title=" " alt="" coords="221,149,341,149,341,154,221,154"/>
@@ -137,48 +140,66 @@ Collaboration diagram for whisper_ros::WhisperBaseNode:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a33d49ceeb808a31d9f09f4c945e99112" id="r_a33d49ceeb808a31d9f09f4c945e99112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d49ceeb808a31d9f09f4c945e99112">WhisperBaseNode</a> ()</td></tr>
+<tr class="memdesc:a33d49ceeb808a31d9f09f4c945e99112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classwhisper__ros_1_1WhisperBaseNode.html" title="A ROS 2 Lifecycle Node for interfacing with the Whisper speech-to-text system.">WhisperBaseNode</a> instance.  <br /></td></tr>
 <tr class="separator:a33d49ceeb808a31d9f09f4c945e99112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b48ecc0e2c4d9fb469276bed4eff905" id="r_a0b48ecc0e2c4d9fb469276bed4eff905"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b48ecc0e2c4d9fb469276bed4eff905">on_configure</a> (const rclcpp_lifecycle::State &amp;)</td></tr>
-<tr class="separator:a0b48ecc0e2c4d9fb469276bed4eff905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1d953b4a91c1b45b00d61afca41c1f" id="r_a2a1d953b4a91c1b45b00d61afca41c1f"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a1d953b4a91c1b45b00d61afca41c1f">on_activate</a> (const rclcpp_lifecycle::State &amp;)</td></tr>
-<tr class="separator:a2a1d953b4a91c1b45b00d61afca41c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a483230480b61e030680f7660c939ff12" id="r_a483230480b61e030680f7660c939ff12"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a483230480b61e030680f7660c939ff12">on_deactivate</a> (const rclcpp_lifecycle::State &amp;)</td></tr>
-<tr class="separator:a483230480b61e030680f7660c939ff12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4de878866261c77f7506ade3d40ad5" id="r_a4b4de878866261c77f7506ade3d40ad5"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4de878866261c77f7506ade3d40ad5">on_cleanup</a> (const rclcpp_lifecycle::State &amp;)</td></tr>
-<tr class="separator:a4b4de878866261c77f7506ade3d40ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab0e3aea4690fafc281f4f3d70dc2fd2" id="r_aab0e3aea4690fafc281f4f3d70dc2fd2"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab0e3aea4690fafc281f4f3d70dc2fd2">on_shutdown</a> (const rclcpp_lifecycle::State &amp;)</td></tr>
-<tr class="separator:aab0e3aea4690fafc281f4f3d70dc2fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983aad7af6cf6531362a29cccc39bf8b" id="r_a983aad7af6cf6531362a29cccc39bf8b"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983aad7af6cf6531362a29cccc39bf8b">on_configure</a> (const rclcpp_lifecycle::State &amp;state)</td></tr>
+<tr class="memdesc:a983aad7af6cf6531362a29cccc39bf8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the node during its lifecycle.  <br /></td></tr>
+<tr class="separator:a983aad7af6cf6531362a29cccc39bf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23fd94e3e22cec1bd02d4e6982ffd5de" id="r_a23fd94e3e22cec1bd02d4e6982ffd5de"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23fd94e3e22cec1bd02d4e6982ffd5de">on_activate</a> (const rclcpp_lifecycle::State &amp;state)</td></tr>
+<tr class="memdesc:a23fd94e3e22cec1bd02d4e6982ffd5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activates the node during its lifecycle.  <br /></td></tr>
+<tr class="separator:a23fd94e3e22cec1bd02d4e6982ffd5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96ba46acba4a69fcd1667fdfddaba30" id="r_ab96ba46acba4a69fcd1667fdfddaba30"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab96ba46acba4a69fcd1667fdfddaba30">on_deactivate</a> (const rclcpp_lifecycle::State &amp;state)</td></tr>
+<tr class="memdesc:ab96ba46acba4a69fcd1667fdfddaba30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates the node during its lifecycle.  <br /></td></tr>
+<tr class="separator:ab96ba46acba4a69fcd1667fdfddaba30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a8b5a718f739278465e1d65430de58c" id="r_a6a8b5a718f739278465e1d65430de58c"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a8b5a718f739278465e1d65430de58c">on_cleanup</a> (const rclcpp_lifecycle::State &amp;state)</td></tr>
+<tr class="memdesc:a6a8b5a718f739278465e1d65430de58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up resources during its lifecycle.  <br /></td></tr>
+<tr class="separator:a6a8b5a718f739278465e1d65430de58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8bb1a80c23e43672cb99a220505f0c" id="r_afb8bb1a80c23e43672cb99a220505f0c"><td class="memItemLeft" align="right" valign="top">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb8bb1a80c23e43672cb99a220505f0c">on_shutdown</a> (const rclcpp_lifecycle::State &amp;state)</td></tr>
+<tr class="memdesc:afb8bb1a80c23e43672cb99a220505f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down the node during its lifecycle.  <br /></td></tr>
+<tr class="separator:afb8bb1a80c23e43672cb99a220505f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade96a8fa07db3ac869d091af75c74405" id="r_ade96a8fa07db3ac869d091af75c74405"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade96a8fa07db3ac869d091af75c74405">activate_ros_interfaces</a> ()</td></tr>
+<tr class="memdesc:ade96a8fa07db3ac869d091af75c74405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activates ROS 2 interfaces specific to this node. To be implemented in derived classes.  <br /></td></tr>
 <tr class="separator:ade96a8fa07db3ac869d091af75c74405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3f17953641c0e20bd2c5c1c755f6ab" id="r_abc3f17953641c0e20bd2c5c1c755f6ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc3f17953641c0e20bd2c5c1c755f6ab">deactivate_ros_interfaces</a> ()</td></tr>
+<tr class="memdesc:abc3f17953641c0e20bd2c5c1c755f6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates ROS 2 interfaces specific to this node. To be implemented in derived classes.  <br /></td></tr>
 <tr class="separator:abc3f17953641c0e20bd2c5c1c755f6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7f1857449c106a390937096347c87e37" id="r_a7f1857449c106a390937096347c87e37"><td class="memItemLeft" align="right" valign="top">whisper_msgs::msg::Transcription&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f1857449c106a390937096347c87e37">transcribe</a> (const std::vector&lt; float &gt; &amp;audio)</td></tr>
+<tr class="memdesc:a7f1857449c106a390937096347c87e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transcribes a given audio input to text.  <br /></td></tr>
 <tr class="separator:a7f1857449c106a390937096347c87e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a68c9caa2a0f0e94a21c7ad0b2c2de8d7" id="r_a68c9caa2a0f0e94a21c7ad0b2c2de8d7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68c9caa2a0f0e94a21c7ad0b2c2de8d7">language</a></td></tr>
+<tr class="memdesc:a68c9caa2a0f0e94a21c7ad0b2c2de8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The language for transcription (e.g., "en").  <br /></td></tr>
 <tr class="separator:a68c9caa2a0f0e94a21c7ad0b2c2de8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249bedd83847d270f853acfaf81141c0" id="r_a249bedd83847d270f853acfaf81141c0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classwhisper__ros_1_1Whisper.html">Whisper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249bedd83847d270f853acfaf81141c0">whisper</a></td></tr>
+<tr class="memdesc:a249bedd83847d270f853acfaf81141c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared pointer to the <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> speech-to-text processor.  <br /></td></tr>
 <tr class="separator:a249bedd83847d270f853acfaf81141c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aaa9be427bae3998ea648b30d85998aed" id="r_aaa9be427bae3998ea648b30d85998aed"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa9be427bae3998ea648b30d85998aed">model</a></td></tr>
+<tr class="memdesc:aaa9be427bae3998ea648b30d85998aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> model to use.  <br /></td></tr>
 <tr class="separator:aaa9be427bae3998ea648b30d85998aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8b25cb3d202f05adcff363d7a45a2d6" id="r_af8b25cb3d202f05adcff363d7a45a2d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b25cb3d202f05adcff363d7a45a2d6">openvino_encode_device</a></td></tr>
+<tr class="memdesc:af8b25cb3d202f05adcff363d7a45a2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device identifier for OpenVINO encoding (e.g., "CPU").  <br /></td></tr>
 <tr class="separator:af8b25cb3d202f05adcff363d7a45a2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f28cd8f6dc6da9fab0039b341b688aa" id="r_a9f28cd8f6dc6da9fab0039b341b688aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f28cd8f6dc6da9fab0039b341b688aa">n_processors</a></td></tr>
+<tr class="memdesc:a9f28cd8f6dc6da9fab0039b341b688aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of processors to use.  <br /></td></tr>
 <tr class="separator:a9f28cd8f6dc6da9fab0039b341b688aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a856042473d36f083b6499677e5ffc157" id="r_a856042473d36f083b6499677e5ffc157"><td class="memItemLeft" align="right" valign="top">struct whisper_context_params&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a856042473d36f083b6499677e5ffc157">cparams</a> = whisper_context_default_params()</td></tr>
+<tr class="memdesc:a856042473d36f083b6499677e5ffc157"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> context parameters.  <br /></td></tr>
 <tr class="separator:a856042473d36f083b6499677e5ffc157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a667edef40ecf4e1e7d05d65e9e56047f" id="r_a667edef40ecf4e1e7d05d65e9e56047f"><td class="memItemLeft" align="right" valign="top">struct whisper_full_params&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667edef40ecf4e1e7d05d65e9e56047f">wparams</a></td></tr>
+<tr class="memdesc:a667edef40ecf4e1e7d05d65e9e56047f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> full transcription parameters.  <br /></td></tr>
 <tr class="separator:a667edef40ecf4e1e7d05d65e9e56047f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A ROS 2 Lifecycle Node for interfacing with the <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> speech-to-text system. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a33d49ceeb808a31d9f09f4c945e99112" name="a33d49ceeb808a31d9f09f4c945e99112"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33d49ceeb808a31d9f09f4c945e99112">&#9670;&#160;</a></span>WhisperBaseNode()</h2>
 
@@ -193,6 +214,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs a new <a class="el" href="classwhisper__ros_1_1WhisperBaseNode.html" title="A ROS 2 Lifecycle Node for interfacing with the Whisper speech-to-text system.">WhisperBaseNode</a> instance. </p>
 
 </div>
 </div>
@@ -219,6 +242,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Activates ROS 2 interfaces specific to this node. To be implemented in derived classes. </p>
 
 <p>Reimplemented in <a class="el" href="classwhisper__ros_1_1WhisperNode.html#acc1a17ee4ec9fb7e8b3ea2373a97eb38">whisper_ros::WhisperNode</a>, and <a class="el" href="classwhisper__ros_1_1WhisperServerNode.html#af8600d117a16d0ae6f7dfe0539cae8f2">whisper_ros::WhisperServerNode</a>.</p>
 
@@ -247,12 +272,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Deactivates ROS 2 interfaces specific to this node. To be implemented in derived classes. </p>
+
 <p>Reimplemented in <a class="el" href="classwhisper__ros_1_1WhisperNode.html#af18fff6075b89b899cda7e67d09137d5">whisper_ros::WhisperNode</a>, and <a class="el" href="classwhisper__ros_1_1WhisperServerNode.html#a2143c31827227e3192cfcfc1ded51a2a">whisper_ros::WhisperServerNode</a>.</p>
 
 </div>
 </div>
-<a id="a2a1d953b4a91c1b45b00d61afca41c1f" name="a2a1d953b4a91c1b45b00d61afca41c1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a1d953b4a91c1b45b00d61afca41c1f">&#9670;&#160;</a></span>on_activate()</h2>
+<a id="a23fd94e3e22cec1bd02d4e6982ffd5de" name="a23fd94e3e22cec1bd02d4e6982ffd5de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23fd94e3e22cec1bd02d4e6982ffd5de">&#9670;&#160;</a></span>on_activate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,16 +287,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn WhisperBaseNode::on_activate </td>
           <td>(</td>
-          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Activates the node during its lifecycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current state of the lifecycle node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CallbackReturn indicating success or failure. </dd></dl>
+
 </div>
 </div>
-<a id="a4b4de878866261c77f7506ade3d40ad5" name="a4b4de878866261c77f7506ade3d40ad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b4de878866261c77f7506ade3d40ad5">&#9670;&#160;</a></span>on_cleanup()</h2>
+<a id="a6a8b5a718f739278465e1d65430de58c" name="a6a8b5a718f739278465e1d65430de58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a8b5a718f739278465e1d65430de58c">&#9670;&#160;</a></span>on_cleanup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,16 +313,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn WhisperBaseNode::on_cleanup </td>
           <td>(</td>
-          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Cleans up resources during its lifecycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current state of the lifecycle node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CallbackReturn indicating success or failure. </dd></dl>
+
 </div>
 </div>
-<a id="a0b48ecc0e2c4d9fb469276bed4eff905" name="a0b48ecc0e2c4d9fb469276bed4eff905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b48ecc0e2c4d9fb469276bed4eff905">&#9670;&#160;</a></span>on_configure()</h2>
+<a id="a983aad7af6cf6531362a29cccc39bf8b" name="a983aad7af6cf6531362a29cccc39bf8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983aad7af6cf6531362a29cccc39bf8b">&#9670;&#160;</a></span>on_configure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,16 +339,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn WhisperBaseNode::on_configure </td>
           <td>(</td>
-          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Configures the node during its lifecycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current state of the lifecycle node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CallbackReturn indicating success or failure. </dd></dl>
+
 </div>
 </div>
-<a id="a483230480b61e030680f7660c939ff12" name="a483230480b61e030680f7660c939ff12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a483230480b61e030680f7660c939ff12">&#9670;&#160;</a></span>on_deactivate()</h2>
+<a id="ab96ba46acba4a69fcd1667fdfddaba30" name="ab96ba46acba4a69fcd1667fdfddaba30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96ba46acba4a69fcd1667fdfddaba30">&#9670;&#160;</a></span>on_deactivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,16 +365,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn WhisperBaseNode::on_deactivate </td>
           <td>(</td>
-          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Deactivates the node during its lifecycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current state of the lifecycle node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CallbackReturn indicating success or failure. </dd></dl>
+
 </div>
 </div>
-<a id="aab0e3aea4690fafc281f4f3d70dc2fd2" name="aab0e3aea4690fafc281f4f3d70dc2fd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab0e3aea4690fafc281f4f3d70dc2fd2">&#9670;&#160;</a></span>on_shutdown()</h2>
+<a id="afb8bb1a80c23e43672cb99a220505f0c" name="afb8bb1a80c23e43672cb99a220505f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8bb1a80c23e43672cb99a220505f0c">&#9670;&#160;</a></span>on_shutdown()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,11 +391,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn WhisperBaseNode::on_shutdown </td>
           <td>(</td>
-          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const rclcpp_lifecycle::State &amp;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Shuts down the node during its lifecycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>The current state of the lifecycle node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CallbackReturn indicating success or failure. </dd></dl>
 
 </div>
 </div>
@@ -359,6 +431,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Transcribes a given audio input to text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">audio</td><td>A vector of floating-point audio samples. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A Transcription message containing the text and metadata. </dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -382,6 +463,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> context parameters. </p>
+
 </div>
 </div>
 <a id="a68c9caa2a0f0e94a21c7ad0b2c2de8d7" name="a68c9caa2a0f0e94a21c7ad0b2c2de8d7"></a>
@@ -403,6 +486,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The language for transcription (e.g., "en"). </p>
 
 </div>
 </div>
@@ -426,6 +511,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> model to use. </p>
+
 </div>
 </div>
 <a id="a9f28cd8f6dc6da9fab0039b341b688aa" name="a9f28cd8f6dc6da9fab0039b341b688aa"></a>
@@ -447,6 +534,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Number of processors to use. </p>
 
 </div>
 </div>
@@ -470,6 +559,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Device identifier for OpenVINO encoding (e.g., "CPU"). </p>
+
 </div>
 </div>
 <a id="a249bedd83847d270f853acfaf81141c0" name="a249bedd83847d270f853acfaf81141c0"></a>
@@ -492,6 +583,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Shared pointer to the <a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> speech-to-text processor. </p>
+
 </div>
 </div>
 <a id="a667edef40ecf4e1e7d05d65e9e56047f" name="a667edef40ecf4e1e7d05d65e9e56047f"></a>
@@ -513,6 +606,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="classwhisper__ros_1_1Whisper.html" title="Class for performing speech-to-text transcription using the Whisper model.">Whisper</a> full transcription parameters. </p>
 
 </div>
 </div>
